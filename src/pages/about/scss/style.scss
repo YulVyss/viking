@@ -1,0 +1,16 @@
+.section-a1 {
+  padding: 60px 0 80px;
+  &__text {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 40px 0 60px;
+
+    &__text {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+}

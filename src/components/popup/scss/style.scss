@@ -1,0 +1,235 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  width: 1068px;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+  transition: right 200ms ease;
+  overflow-y: scroll;
+
+  &.open {
+    right: 0;
+  }
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  &__close {
+    position: fixed;
+    right: -100vw;
+    top: 40px;
+    // left: 40px;
+    width: 78px;
+    height: 78px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 150;
+    transition: right 200ms ease;
+    &.open {
+      right: 955px;
+    }
+
+    span {
+      position: absolute;
+      top: 36px;
+      left: 25px;
+      display: block;
+      width: 30px;
+      height: 4px;
+      background-color: #262626;
+      border-radius: 30px;
+      &:first-of-type {
+        transform: rotate(45deg);
+      }
+      &:last-of-type {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    padding: 40px;
+  }
+  &__button {
+    margin-bottom: 20px;
+  }
+
+  .popup1 {
+    padding: 0 0 200px;
+
+    &__title {
+      margin-bottom: 40px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    &__text {
+      width: 75%;
+      margin-bottom: 20px;
+      &:last-of-type {
+        margin-bottom: 60px;
+      }
+    }
+
+    &__img {
+      object-fit: contain;
+      margin-bottom: 60px;
+    }
+
+    &__item {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 40px;
+    }
+    &__list {
+    }
+    &__flex-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      visibility: hidden;
+      margin-top: -60px;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear, margin-top 0.5s linear;
+
+      &.open {
+        margin-top: 0;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    &__input {
+      max-width: 350px;
+      margin-right: 20px;
+    }
+
+    .popup2 {
+      padding-bottom: 80px;
+    }
+
+    @media (max-width: 1024px) {
+      &__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 40px;
+      }
+      &__img {
+        width: 100%;
+        margin-bottom: 40px;
+        img {
+          display: block;
+          max-width: 100%;
+        }
+      }
+      &__text {
+        width: 60%;
+        margin-bottom: 20px;
+        &:last-of-type {
+          margin-bottom: 40px;
+        }
+      }
+      &__item {
+        font-size: 22px;
+        line-height: 26px;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      padding: 40px 0 100px;
+      &__subtitle {
+        display: none;
+      }
+      &__title {
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 20px;
+      }
+      &__text {
+        width: 100%;
+        margin-bottom: 20px;
+        &:last-of-type {
+          margin-bottom: 30px;
+        }
+      }
+      &__list,
+      &__list2 {
+        display: block;
+      }
+      &__item {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+      &__img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 1440px) {
+    width: 828px;
+    &__close {
+      top: 30px;
+      &.open {
+        right: 719px;
+      }
+    }
+  }
+  @media (max-width: 998px) {
+    width: 100%;
+    &__close {
+      top: 30px;
+      &.open {
+        left: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    &__content {
+      padding: 20px;
+    }
+    &__close {
+      top: 20px;
+
+      width: 44px;
+      height: 44px;
+      &.open {
+        left: 20px;
+      }
+
+      span {
+        top: 20px;
+        left: 12px;
+        display: block;
+        width: 20px;
+        height: 3px;
+      }
+    }
+  }
+  @media (max-width: 479.98px) {
+    &__content {
+      padding: 10px;
+    }
+    &__close {
+      top: 10px;
+      &.open {
+        left: 10px;
+      }
+    }
+  }
+}

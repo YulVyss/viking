@@ -1,0 +1,16 @@
+.section-a1 {
+  padding: 60px 0 80px;
+}
+.section-a1__text {
+  width: 60%;
+  margin-bottom: 40px;
+}
+@media (max-width: 767.98px) {
+  .section-a1 {
+    padding: 40px 0 60px;
+  }
+  .section-a1__text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

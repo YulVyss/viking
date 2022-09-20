@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "Golos Text";
+  src: url("../../public/fonts/GolosText-Medium.eot");
+  src: local("Golos Text Medium"), local("GolosText-Medium"), url("../../public/fonts/GolosText-Medium.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/GolosText-Medium.woff2") format("woff2"), url("../../public/fonts/GolosText-Medium.woff") format("woff"), url("../../public/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Golos Text";
+  src: url("../../public/fonts/GolosText-Black.eot");
+  src: local("Golos Text Black"), local("GolosText-Black"), url("../../public/fonts/GolosText-Black.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/GolosText-Black.woff2") format("woff2"), url("../../public/fonts/GolosText-Black.woff") format("woff"), url("../../public/fonts/GolosText-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Golos Text";
+  src: url("../../public/fonts/GolosText-DemiBold.eot");
+  src: local("Golos Text DemiBold"), local("GolosText-DemiBold"), url("../../public/fonts/GolosText-DemiBold.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/GolosText-DemiBold.woff2") format("woff2"), url("../../public/fonts/GolosText-DemiBold.woff") format("woff"), url("../../public/fonts/GolosText-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Golos Text";
+  src: url("../../public/fonts/GolosText-Bold.eot");
+  src: local("Golos Text Bold"), local("GolosText-Bold"), url("../../public/fonts/GolosText-Bold.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/GolosText-Bold.woff2") format("woff2"), url("../../public/fonts/GolosText-Bold.woff") format("woff"), url("../../public/fonts/GolosText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Golos Text";
+  src: url("../../public/fonts/GolosText-Regular.eot");
+  src: local("Golos Text Regular"), local("GolosText-Regular"), url("../../public/fonts/GolosText-Regular.eot?#iefix") format("embedded-opentype"), url("../../public/fonts/GolosText-Regular.woff2") format("woff2"), url("../../public/fonts/GolosText-Regular.woff") format("woff"), url("../../public/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  scroll-behavior: smooth;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  line-height: 1;
+  font-family: "Golos Text";
+  color: #242628;
+  background-color: #ffffff;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: "Golos Text";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  color: #242628;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+@media (max-width: 1920px) {
+  .wrapper {
+    min-width: 100%;
+  }
+}
+@media (max-width: 479.98px) {
+  .wrapper {
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+body._lock {
+  overflow: hidden;
+}
+
+.main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container_visible {
+  overflow: visible;
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 984px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 479.98px) {
+  .container {
+    min-width: 320px;
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+
+.title {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 67px;
+}
+@media (max-width: 1024px) {
+  .title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 479.98px) {
+  .title {
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+@media (max-width: 1024px) {
+  .text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767.98px) {
+  .text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 479.98px) {
+  .text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.main {
+  padding-top: 170px;
+}
+@media (max-width: 1024px) {
+  .main {
+    padding-top: 103px;
+  }
+}
+@media (max-width: 767.98px) {
+  .main {
+    padding-top: 64px;
+  }
+}
+
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 150;
+  transition: left 0.2s;
+}
+.popup-wrapper.open {
+  right: 0;
+}

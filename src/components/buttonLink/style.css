@@ -1,0 +1,33 @@
+.link {
+  display: block;
+  padding: 18px 20px;
+  width: 217px;
+  background-color: #99222b;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  transition: background-color 300ms;
+}
+.link:visited {
+  color: #ffffff;
+}
+.link:hover {
+  background-color: #262626;
+}
+
+@media (max-width: 1024px) {
+  .link {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 19px 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

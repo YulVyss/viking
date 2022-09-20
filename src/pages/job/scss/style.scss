@@ -1,0 +1,127 @@
+.section-j1 {
+  padding: 60px 0 80px;
+  &__text {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  &__flex-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  &__flex-block1 {
+    flex: 0 1 70%;
+  }
+  &__flex-block2 {
+    flex: 0 1 29%;
+  }
+  &__block-title {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 145px;
+    line-height: 174px;
+    color: #99222b;
+  }
+  @media (max-width: 1024px) {
+    &__block-title {
+      font-size: 145px;
+      line-height: 174px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 40px 0 20px;
+    &__flex-wrapper {
+      flex-direction: column;
+    }
+    &__flex-block1 {
+      margin-bottom: 40px;
+    }
+    &__text {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    &__block-title {
+      font-size: 120px;
+      line-height: 144px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.section-j4 {
+  padding-bottom: 200px;
+  &__flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &__block {
+    flex: 0 1 33%;
+    margin-right: 20px;
+    padding: 60px 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  &__block-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  &__location {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+  }
+  @media (max-width: 1024px) {
+    &__flex-wrapper {
+      flex-wrap: wrap;
+    }
+    &__block {
+      flex: 0 1 49%;
+      margin: 0 0 20px 0;
+      padding: 40px 20px;
+    }
+    &:first-of-type {
+      margin-right: 20px;
+    }
+    &__block-title {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    &__location {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    padding: 0 0 100px;
+    &__flex-wrapper {
+      flex-direction: column;
+    }
+    &__block {
+      flex: 1;
+      margin: 0 0 10px 0;
+      padding: 20px 10px;
+    }
+    &__block-title {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__location {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
