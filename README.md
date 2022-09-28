@@ -1,4 +1,4 @@
-visit https://yulvyss.github.io/build/
+visit https://yulvyss.github.io/
 
 # Getting Started with Create React App
 
