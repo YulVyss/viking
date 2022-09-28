@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0b1d80f.css",
+    "main.js": "/static/js/main.bf0778b6.js",
+    "static/js/787.1fcdbc62.chunk.js": "/static/js/787.1fcdbc62.chunk.js",
+    "static/media/GolosText-Black.eot": "/static/media/GolosText-Black.84f9e92a75bfbe150989.eot",
+    "static/media/GolosText-Black.ttf": "/static/media/GolosText-Black.5bf88b84e37a4e996266.ttf",
+    "static/media/GolosText-Regular.eot": "/static/media/GolosText-Regular.be9dbbbf8494075ffbc8.eot",
+    "static/media/GolosText-Medium.eot": "/static/media/GolosText-Medium.ce79d1eccad84f89d9b5.eot",
+    "static/media/GolosText-Regular.ttf": "/static/media/GolosText-Regular.4e79730984d81b89818d.ttf",
+    "static/media/GolosText-DemiBold.eot": "/static/media/GolosText-DemiBold.d1c2d68c7ec8ef5229dc.eot",
+    "static/media/GolosText-Medium.ttf": "/static/media/GolosText-Medium.c577016a422c25370fbc.ttf",
+    "static/media/GolosText-DemiBold.ttf": "/static/media/GolosText-DemiBold.8156a22582f4ba3f6684.ttf",
+    "static/media/GolosText-Bold.eot": "/static/media/GolosText-Bold.58a37ac47fd9365dcd60.eot",
+    "static/media/GolosText-Bold.ttf": "/static/media/GolosText-Bold.2c0671022c5a4ad7d2ed.ttf",
+    "static/media/GolosText-Black.woff": "/static/media/GolosText-Black.f3366c04a187e6d516e9.woff",
+    "static/media/GolosText-Bold.woff": "/static/media/GolosText-Bold.21ec8e83a4d724b9be45.woff",
+    "static/media/GolosText-DemiBold.woff": "/static/media/GolosText-DemiBold.338afafa037a1f039e0d.woff",
+    "static/media/GolosText-Medium.woff": "/static/media/GolosText-Medium.72be146da4ef186f6b37.woff",
+    "static/media/GolosText-Regular.woff": "/static/media/GolosText-Regular.a9b27a2fe86ff3e61988.woff",
+    "static/media/GolosText-Black.woff2": "/static/media/GolosText-Black.a485fe75fbb32d77d399.woff2",
+    "static/media/GolosText-Bold.woff2": "/static/media/GolosText-Bold.df2ce97df0a0060bbead.woff2",
+    "static/media/GolosText-DemiBold.woff2": "/static/media/GolosText-DemiBold.791408011ac4270c4177.woff2",
+    "static/media/GolosText-Medium.woff2": "/static/media/GolosText-Medium.84542968b689bf1c9925.woff2",
+    "static/media/GolosText-Regular.woff2": "/static/media/GolosText-Regular.af87bdb7d8392f53376a.woff2",
+    "index.html": "/index.html",
+    "main.d0b1d80f.css.map": "/static/css/main.d0b1d80f.css.map",
+    "main.bf0778b6.js.map": "/static/js/main.bf0778b6.js.map",
+    "787.1fcdbc62.chunk.js.map": "/static/js/787.1fcdbc62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b1d80f.css",
+    "static/js/main.bf0778b6.js"
+  ]
+}
